@@ -1,0 +1,357 @@
+body{
+    background-color: yellow;
+}
+
+.red1{
+    width: 120px;
+    height: 120px;
+    margin: 10px 40px 50px 30px;
+    background-color:cadetblue ;
+    animation-name: red1;
+    animation-duration:2s ;
+    animation-iteration-count:infinite ;
+    animation-direction: alternate-reverse;
+}
+@keyframes red1{
+    0%{
+        transform: skew(-20deg);
+    }
+    100%{
+        transform: skew(20deg);
+    }
+}
+.green1{
+    width: 120px;
+    height: 120px;
+    margin: 10px 40px 50px 20px;
+    background-color:gray ;
+    animation-name: green1;
+    animation-duration:2s ;
+    animation-iteration-count:infinite ;
+    animation-direction: alternate-reverse;
+}
+@keyframes green1{
+    0%{
+        transform:skewY(-20deg);
+    }
+    100%{
+        transform:skewY(20deg);
+        
+    }
+}
+
+.black1{
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+    margin: 10px 40px 50px 20px;
+    background-color:cadetblue ;
+    animation-name: black1;
+    animation-duration:2s ;
+    animation-iteration-count:infinite ;
+    animation-direction: alternate-reverse;
+}
+@keyframes black1 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.rom1{
+    display: flex;
+}
+.dis{
+    display: flex;
+}
+.rom{
+    margin-top: 100px;
+}
+.black2{
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+    margin: 10px 40px 50px 20px;
+    background-color: cadetblue;
+    animation-name: black2;
+    animation-duration:2s ;
+    animation-iteration-count:infinite ;
+    animation-direction: alternate-reverse;
+
+
+
+}
+@keyframes black2{
+    0%{
+        transform: scaleY(0.3);
+    }
+    50%{
+        transform: scaleY(0.5);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+   
+
+}
+h2{
+    text-align: center;
+}
+.container{
+   margin-left: 400px;
+}
+.black3{
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+    margin: 10px 40px 50px 20px;
+    background-color: brown;
+    animation-name: black3;
+    animation-duration:2s ;
+    animation-iteration-count:infinite ;
+    animation-direction: alternate-reverse;
+}
+@keyframes black3{
+    0%{
+        transform: scaleX(0.3);
+    }
+    50%{
+        transform: scaleX(0.5);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+   
+
+}
+
+.black4{
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+    margin: 10px 40px 50px 20px;
+    background-color:green ;
+    animation-name: black4;
+    animation-duration:2s ;
+    animation-iteration-count:infinite ;
+    animation-direction: alternate-reverse;
+}
+@keyframes black4 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.fix{
+    margin-left: 650px;
+}
+.box1{
+    margin: 20px;
+    width: 120px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 5s;
+}
+.box1:hover{
+    padding-right: 550px;
+   
+}
+.box2{
+    width: 120px;
+    height: 100px;
+    margin: 20px;
+    background-color: green;
+    transition-duration: 5s;
+    animation: ease-in-out;
+}
+.box2:hover{
+    padding-right: 150px;
+    padding-bottom: 150px;
+}
+.box3{
+    width: 120px;
+    height: 100px;
+    margin: 20px;
+    background-color: green;
+    transition-duration: 7s;
+    animation: ease-out;
+}
+.box3:hover{
+    padding-right: 350px;
+}
+.rom2{
+    margin-top: 20px;
+}
+.box4{
+    width: 120px;
+    height: 100px;
+    margin: 20px;
+    background-color: green;
+    transition-duration: 7s;
+    animation: ease-out;
+}
+.box4:hover{
+    padding-right: 350px;
+}
+.box5{
+    width: 120px;
+    height: 100px;
+    margin: 20px;
+    background-color: green;
+    transition-duration: 7s;
+    animation: ease-out;
+}
+.box5:hover{
+    padding-right: 350px;
+}
+.box6{
+    margin: 20px;
+    width: 120px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 7s;
+    animation: ease-out;
+}
+.box6:hover{
+    padding-right: 350px;
+}
+.box7{
+    margin: 20px;
+    width: 120px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 7s;
+    animation: ease-out;
+}
+.box7:hover{
+    padding-right: 350px;
+}
+.section{
+    background-image: url(./Assessts/sky.jpg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.mov{
+   height: 200px;
+   width: 400%;
+   display: block;
+   background-image: url(./Assessts/road.jpg);
+   background-repeat: repeat-x;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: 1;
+   animation: mov 5s linear infinite;
+   background-size:cover;
+
+}
+.sun{
+   margin-left: 1000px;
+    top:50px;
+    width: 100;
+    height: 100px;
+}
+.orange{
+    background-color: orange;
+    margin: 10px;
+}
+.white{
+    background-color: aliceblue;
+    margin: 10px;
+}
+.greenf{
+    background-color: green;
+    margin: 10px;
+}
+@keyframes mov{
+    100%{
+        transform: translateX(-2500px);
+    }
+}
+.city{
+    height: 250px;
+    width: 120%;
+    background-repeat: space;
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+    right: 100px;
+    z-index: 1;
+    animation: city 500s linear infinite;
+  
+    
+}
+@keyframes city{
+    100%{
+        transform: translateX(-4500px);
+    }
+}
+.car{
+    height: 200px;
+    width: 500px;
+    display: block;
+    background-repeat: repeat-x;
+    position:fixed;
+    bottom: 90px;
+    left: 450px;
+    right: 100px;
+    z-index: 1; 
+    opacity: 5px;
+}
+.wheel1{
+    width: 100px;
+    height: 100px;
+   position: absolute;
+    bottom: 100px;
+    left: 52%;
+    z-index: 2;
+}
+.wheel img{
+    animation: wheel linear infinite 2s;
+
+
+}
+@keyframes wheel {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.wheel2{
+    width: 100px;
+    height: 100px;
+   position: absolute;
+    bottom: 100px;
+    left: 32%;
+    z-index: 2;
+
+}
+
+
+h1{
+    text-align: center;
+}
+.flag{
+    height: 80px;
+    width: 100px;
+    display: block;
+    background-repeat: repeat-x;
+    background-size: cover;
+    position:fixed;
+    bottom: 205px;
+    left: 0px;
+    right: 100px;
+    z-index: 1; 
+    opacity: 5px;
+    margin-left: 800px;
+    margin-right: 200px;
+    animation: wheel2 5s linear infinite;
+}
